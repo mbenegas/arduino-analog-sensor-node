@@ -22,11 +22,11 @@ Esta red utiliza un controlador Arduino ESP8266, para lo cual debes instalar las
 
 Adicionalmente deberas agregar las siguientes librerias para el manejo de los sensores de temperatura, presión y humedad. Sigue las instrucciones oficiales especificadas para cada libreria.
 
-Guía [Using the Library Manager]:https://www.arduino.cc/en/guide/libraries#toc3
+Guía [Using the Library Manager](https://www.arduino.cc/en/guide/libraries#toc3)
 * DHT22 - https://github.com/beegee-tokyo/DHTesp
 * ThingSpeak - ver imagen
 
 ![Arduino_Library_Install](img/LibraryManagerThingSpeak.png)
 
-Guía [Importing a .zip library]:https://www.arduino.cc/en/guide/libraries#toc4
+Guía [Importing a .zip library](https://www.arduino.cc/en/guide/libraries#toc4)
 * BMP180 - https://github.com/sparkfun/BMP180_Breakout_Arduino_Library
