@@ -5,7 +5,7 @@ El resultado final lo puedes encontrar en https://thingspeak.com/channels/873646
 
 ## Experimento LDR
 
-Ruta: experimento/experimento.ino
+Ruta: [experimento/experimento.ino](experimento/experimento.ino)
 
 Para obtener el valor promedio de ADC (Vin) se toman 100 muestras cada 50 ms, este valor ADC final estará asociado a un valor promedio de Lux.
 
@@ -16,7 +16,7 @@ Total: 327
 
 ## Red completa de sensores
 
-Ruta: final/final.ino
+Ruta: [final/final.ino](final/final.ino)
 
 Esta red utiliza un controlador Arduino ESP8266, para lo cual debes instalar las librerías de este controlador siguiendo las instrucciones en la sección https://github.com/esp8266/Arduino#installing-with-boards-manager.
 
