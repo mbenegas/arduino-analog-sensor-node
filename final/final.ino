@@ -86,11 +86,11 @@ void loop() {
         status = bmp180.getPressure(absolutePressure,temperature);
         if (status != 0)
         {
-          ThingSpeak.setField(absolutePressureFieldNumber, (float)absolutePressure);
+          ThingSpeak.setField(absolutePressureFieldNumber, (float)absolutePressure*100);
           
           Serial.print("presion absoluta: ");
-          Serial.print(absolutePressure,2);
-          Serial.print(" mb, ");
+          Serial.print(absolutePressure*100,2);
+          Serial.print(" Pa, ");
           Serial.print(absolutePressure*0.0295333727,2);
           Serial.println(" inHg");
 
